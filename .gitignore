@@ -73,3 +73,16 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# IDE
+/.idea/
+
+# Local MCP connection of the editor
+/.mcp.json
+
+# Working notes of the AI agent, kept locally
+/.claude/
+/PROGRESS.md
+
+# Demo videos for the README, uploaded to GitHub separately
+/Recordings/
