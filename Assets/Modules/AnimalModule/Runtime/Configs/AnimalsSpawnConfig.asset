@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872029b29beb01e4b8958e7298171e41, type: 3}
+  m_Name: AnimalsSpawnConfig
+  m_EditorClassIdentifier: AnimalModule::Modules.AnimalModule.Runtime.Scripts.Spawn.AnimalsSpawnConfig
+  <MinSpawnInterval>k__BackingField: 1
+  <MaxSpawnInterval>k__BackingField: 2
+  <MaxAnimalsCount>k__BackingField: 30
+  <ViewportMargin>k__BackingField: 0.1
+  <SpawnHeight>k__BackingField: 0.5
+  <SpawnClearanceRadius>k__BackingField: 1.2
+  _animals:
+  - m_AssetGUID: 7ce131cbea5c8174c8ec2ca17528cbef
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 87658d01d86143944ae0db97a21f6822
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: c537e717e94c62447a4b14a588fb84ea
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 1

@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36d98482867bca44ea223421e06d7a78, type: 3}
+  m_Name: Mouse
+  m_EditorClassIdentifier: AnimalModule::Modules.AnimalModule.Runtime.Scripts.Animal.AnimalConfig
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _behaviours
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Modules.AnimalModule.Runtime.Scripts.Behaviours.IAnimalBehaviourConfig,
+        AnimalModule]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 1|Modules.AnimalModule.Runtime.Scripts.Movement.Wander.WanderConfig,
+        AnimalModule
+    - Name: <Interval>k__BackingField
+      Entry: 4
+      Data: 0.8
+    - Name: <MaxTurnInDegrees>k__BackingField
+      Entry: 4
+      Data: 70
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|Modules.AnimalModule.Runtime.Scripts.Bounds.BoundsReturnConfig, AnimalModule
+    - Name: <ViewportMargin>k__BackingField
+      Entry: 4
+      Data: 0.08
+    - Name: <MaxDeviationInDegrees>k__BackingField
+      Entry: 4
+      Data: 30
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|Modules.AnimalModule.Runtime.Scripts.Movement.Linear.LinearMovementConfig,
+        AnimalModule
+    - Name: <Speed>k__BackingField
+      Entry: 4
+      Data: 4
+    - Name: <Acceleration>k__BackingField
+      Entry: 4
+      Data: 12
+    - Name: <TurnSpeedInDegrees>k__BackingField
+      Entry: 4
+      Data: 300
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  <Prefab>k__BackingField:
+    m_AssetGUID: 7a2732482992dfc4591879c22a24552c
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 1
+  <FoodChain>k__BackingField:
+    <Tag>k__BackingField: {fileID: 11400000, guid: 7c2005eb8461ed34d9c3e252c1b00396, type: 2}
+    <Role>k__BackingField: 0
+    _eats: []
